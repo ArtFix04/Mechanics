@@ -122,7 +122,7 @@ public class Cryptic {
         dec = Base64Coder.decode(cryptic);
       } catch(IllegalArgumentException ex) {
         // decode legacy files encoded with sun encoder
-        dec = new sun.misc.BASE64Decoder().decodeBuffer(cryptic);
+        dec = java.util.Base64.getDecoder().decode(cryptic);
       }
       byte[] bytes = dcipher.doFinal(dec);
       return new String(bytes, encoding);

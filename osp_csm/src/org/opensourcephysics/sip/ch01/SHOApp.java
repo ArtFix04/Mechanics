@@ -16,6 +16,7 @@ public class SHOApp {
    * @param args  command line parameters
    */
   public static void main(String[] args) {
+    System.out.println(System.getProperty("java.version"));
     Animation animation = new SHOView();
     OSPControl control = new OSPControl(animation);
     control.addButton("startAnimation", "Start");

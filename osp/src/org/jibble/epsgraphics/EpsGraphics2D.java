@@ -357,7 +357,7 @@ public class EpsGraphics2D extends java.awt.Graphics2D {
         }
         it.next();
       }
-      append(action);
+      append("stroke");
       append("newpath"); //$NON-NLS-1$
     }
   }

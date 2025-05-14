@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/workspace_compadre.iml" filepath="$PROJECT_DIR$/.idea/workspace_compadre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp/osp.iml" filepath="$PROJECT_DIR$/osp/osp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp_csm/osp_csm.iml" filepath="$PROJECT_DIR$/osp_csm/osp_csm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp_guide/osp_guide.iml" filepath="$PROJECT_DIR$/osp_guide/osp_guide.iml" />
     </modules>
   </component>
 </project>

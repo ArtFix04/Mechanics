@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ac7e7b3-7a36-42b3-b4c0-693bfc4a2c03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/osp_csm/src/org/opensourcephysics/sip/finalproject/PackingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace_compadre.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp/src/org/jibble/epsgraphics/EpsGraphics2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/osp/src/org/jibble/epsgraphics/EpsGraphics2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp/src/org/opensourcephysics/controls/Cryptic.java" beforeDir="false" afterPath="$PROJECT_DIR$/osp/src/org/opensourcephysics/controls/Cryptic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SHOApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SHOApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SHOModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SHOModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SHOView.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SHOView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SinApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch01/SinApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/BouncingBall.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/BouncingBall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/BouncingBallApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/BouncingBallApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/CalculationApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/CalculationApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/Complex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/ComplexApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/ComplexApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingBall.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingBall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingBallApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingBallApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticleApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticleCalcApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticleCalcApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticlePlotApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FallingParticlePlotApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FirstFallingBallApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/FirstFallingBallApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/Particle.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/Particle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/PlotFrameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/PlotFrameApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/SHO.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/SHO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/SHOParticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/SHOParticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/SimulationApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch02/SimulationApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Ball3DApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Ball3DApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/DataLoaderApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/DataLoaderApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_1App.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_1App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_2App.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_2App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_3App.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_3App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_4App.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_4App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_5App.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Demo3D_5App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/DrawingApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/DrawingApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/FallingParticleODE.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/FallingParticleODE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/FallingParticleODEApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/FallingParticleODEApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/PixelRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/PixelRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Projectile.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/Projectile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/ProjectileApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/ProjectileApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/WorldRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch03/WorldRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/Pendulum.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/Pendulum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/PendulumApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/PendulumApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/RC.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/RC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/RCApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch04/RCApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/MouseApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/MouseApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet2$Mass.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet2$Mass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet2App.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Planet2App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/PlanetApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/PlanetApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Scatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/Scatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ScatterAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ScatterAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ScatterApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ScatterApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/SecondLawPlotApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/SecondLawPlotApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBody$Mass.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBody$Mass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBodyApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBodyApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBodyInitialConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch05/ThreeBodyInitialConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/BifurcateApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/BifurcateApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/DampedDrivenPendulum.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/DampedDrivenPendulum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/FixedPointApp$LogisticIteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/FixedPointApp$LogisticIteration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/FixedPointApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/FixedPointApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/GraphicalSolutionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/GraphicalSolutionApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/IterateMapApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/IterateMapApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/Lorenz.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/Lorenz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/LorenzApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/LorenzApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/PoincareApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/PoincareApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/RecursiveFixedPointApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch06/RecursiveFixedPointApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/BoxApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/BoxApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Fermat.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Fermat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/FermatApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/FermatApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/NuclearDecayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/NuclearDecayApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Nuclei.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Nuclei.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Walker.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/Walker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/WalkerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch07/WalkerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/ExampleXMLApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/ExampleXMLApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/FilesApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/FilesApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/PBCPlotApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/PBCPlotApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/PBCPlotIntApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/PBCPlotIntApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/PBCTestApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/PBCTestApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/hd/HardDisks.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/hd/HardDisks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/hd/HardDisksApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/hd/HardDisksApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/md/LJParticles.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/md/LJParticles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/md/LJParticlesApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/md/LJParticlesApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/md/LJParticlesLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch08/md/LJParticlesLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Analyze.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Analyze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/AnalyzeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/AnalyzeApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FFT2DCalculationApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FFT2DCalculationApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FFTApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FFTApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FFTCalculationApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FFTCalculationApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Fraunhofer2DApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Fraunhofer2DApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FraunhoferApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FraunhoferApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FresnelApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/FresnelApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/HuygensApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/HuygensApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Oscillators.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Oscillators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/OscillatorsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/OscillatorsApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/OscillatorsMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/OscillatorsMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/RasterFrameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/RasterFrameApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Scalar2DFrameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Scalar2DFrameApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/SimpleFFT.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/SimpleFFT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Synthesize.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/Synthesize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/SynthesizeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch09/SynthesizeApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/Charge.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/Charge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/ElectricFieldApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/ElectricFieldApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/FieldLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/FieldLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/FieldLineApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/FieldLineApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/LaplaceApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/LaplaceApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/Maxwell.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/Maxwell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/MaxwellApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/MaxwellApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/RadiatingCharge.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/RadiatingCharge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/RadiatingEFieldApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/RadiatingEFieldApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/Vector2DMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/Vector2DMath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/VectorPlotApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch10/VectorPlotApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/Arcsin.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/Arcsin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/IntegralCalcApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/IntegralCalcApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/LagrangeInterpolatorApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/LagrangeInterpolatorApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/MonteCarloEstimatorApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/MonteCarloEstimatorApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/MonteCarloSampleMean.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/MonteCarloSampleMean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/NumericalIntegrationApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/NumericalIntegrationApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/PolynomialApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/PolynomialApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/PolynomialFitApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/PolynomialFitApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/RectangularApproximation.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch11/RectangularApproximation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/Clusters.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/Clusters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/ClustersApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/ClustersApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/PercolationApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/PercolationApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/RGApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch12/RGApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/DLAApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/DLAApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/KochApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/KochApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cca/CCA.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cca/CCA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cca/CCAApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cca/CCAApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cluster/SingleCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cluster/SingleCluster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cluster/SingleClusterApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/cluster/SingleClusterApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/invasion/Invasion.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/invasion/Invasion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/invasion/InvasionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch13/invasion/InvasionApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/HopfieldApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/HopfieldApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/ca/LifeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/ca/LifeApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/ca/OneDimensionalAutomatonApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/ca/OneDimensionalAutomatonApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/genetic/GenePool.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/genetic/GenePool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/genetic/GeneticApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/genetic/GeneticApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/genetic/Phenotype.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/genetic/Phenotype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/latticegas/FastLatticeGas.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/latticegas/FastLatticeGas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/latticegas/LatticeGas.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/latticegas/LatticeGas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/latticegas/LatticeGasApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/latticegas/LatticeGasApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/networks/NetworksApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/networks/NetworksApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/networks/PreferentialAttachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/networks/PreferentialAttachment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/sandpile/Sandpile.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/sandpile/Sandpile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/sandpile/SandpileApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/sandpile/SandpileApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/traffic/Freeway.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/traffic/Freeway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/traffic/FreewayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch14/traffic/FreewayApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/BoltzmannApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/BoltzmannApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IdealDemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IdealDemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IdealDemonApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IdealDemonApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/Ising.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/Ising.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingAutoCorrelatorApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingAutoCorrelatorApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingDemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingDemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingDemonApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingDemonApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/IsingLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/ManyDemons.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/ManyDemons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/ManyDemonsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch15/ManyDemonsApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/BoxEigenstate.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/BoxEigenstate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/BoxSuperposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/BoxSuperposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/BoxSuperpositionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/BoxSuperpositionApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Complex2DFrameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Complex2DFrameApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/ComplexPlotFrameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/ComplexPlotFrameApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Eigenstate.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Eigenstate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/EigenstateApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/EigenstateApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/GaussianPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/GaussianPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Potential.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Potential.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/QMWalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/QMWalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/QMWalkApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/QMWalkApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Schroedinger.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/Schroedinger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/SchroedingerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/SchroedingerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/TDHalfStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/TDHalfStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/TDHalfStepApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch16/TDHalfStepApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Affine2DApp$RectShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Affine2DApp$RectShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Affine2DApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Affine2DApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Affine3DMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Affine3DMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Barbell3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Barbell3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Box3DApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Box3DApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/BoxWithArrows.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/BoxWithArrows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FeynmanPlate.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FeynmanPlate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FeynmanPlateApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FeynmanPlateApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FeynmanPlateView.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FeynmanPlateView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FreeRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FreeRotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FreeRotationApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FreeRotationApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FreeRotationSpaceView.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/FreeRotationSpaceView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Interaction3DApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Interaction3DApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Methane.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Methane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Methane3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Methane3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Methane3DApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Methane3DApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/MethaneApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/MethaneApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/QuaternionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/QuaternionApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/RigidBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/RigidBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/RigidBodyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/RigidBodyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Rotation3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/Rotation3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/SpinningTop.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/SpinningTop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/SpinningTopApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/SpinningTopApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/SpinningTopSpaceView.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/SpinningTopSpaceView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/TorqueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch17/TorqueApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch18/ContractedRing.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch18/ContractedRing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch18/ObservedRing.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch18/ObservedRing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch19/ConstraintsApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch19/ConstraintsApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch19/ConstraintsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch19/ConstraintsApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch19/GalaxyApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/bin/org/opensourcephysics/sip/ch19/GalaxyApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osp_csm/src/org/opensourcephysics/sip/ch01/SHOApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/osp_csm/src/org/opensourcephysics/sip/ch01/SHOApp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2x3Kvwp32QJaLaDgcYBeUxXk2n5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ball3DApp.executor": "Run",
+    "Application.DataLoaderApp.executor": "Run",
+    "Application.PBCPlotApp.executor": "Run",
+    "Application.PackingProblem.executor": "Run",
+    "Application.PlanetApp.executor": "Run",
+    "Application.ProjectileApp.executor": "Run",
+    "Application.SHOApp.executor": "Run",
+    "Application.ThreeBodyApp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.PackingProblem">
+    <configuration name="PBCPlotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opensourcephysics.sip.ch08.PBCPlotApp" />
+      <module name="osp_csm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.opensourcephysics.sip.ch08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PackingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opensourcephysics.sip.finalproject.PackingProblem" />
+      <module name="osp_csm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.opensourcephysics.sip.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlanetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opensourcephysics.sip.ch05.PlanetApp" />
+      <module name="osp_csm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.opensourcephysics.sip.ch05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectileApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opensourcephysics.sip.ch03.ProjectileApp" />
+      <module name="osp_csm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.opensourcephysics.sip.ch03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeBodyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opensourcephysics.sip.ch05.ThreeBodyApp" />
+      <module name="osp_csm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.opensourcephysics.sip.ch05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PackingProblem" />
+        <item itemvalue="Application.ThreeBodyApp" />
+        <item itemvalue="Application.PBCPlotApp" />
+        <item itemvalue="Application.PlanetApp" />
+        <item itemvalue="Application.ProjectileApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ac7e7b3-7a36-42b3-b4c0-693bfc4a2c03" name="Changes" comment="" />
+      <created>1747161554403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747161554403</updated>
+      <workItem from="1747161555546" duration="7976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
