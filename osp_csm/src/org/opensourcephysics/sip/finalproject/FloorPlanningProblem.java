@@ -6,16 +6,15 @@ import org.opensourcephysics.display.*;
 import java.util.*;
 import java.io.*;
 
-public class PackingProblem extends AbstractSimulation {
-    PlotFrame frame = new PlotFrame("x", "y", "Gravitational Sticky Particles");
+public class FloorPlanningProblem extends AbstractSimulation {
+    PlotFrame frame = new PlotFrame("x", "y", "Floor-planning Problem");
     ArrayList<Particle> particles = new ArrayList<>();
     double dt;
-    int N;
-    int T;
-    int step = 0;
+    int N, T, step = 0;
     double drag = 0.01;
     double G = 1.0;
     double epsilonSq = 0.01;
+    double areaWidth = 25, areaHeight = 25; // Fixed area
     Random rand = new Random();
 
     FileWriter initialLog, finalLog, energyLog;
@@ -29,7 +28,7 @@ public class PackingProblem extends AbstractSimulation {
             this.x = x;
             this.y = y;
             this.radius = radius;
-            this.mass = 1; //Math.PI * radius * radius; // density = 1
+            this.mass = Math.PI * radius * radius; // density = 1
             circle.setXY(x, y);
             circle.pixRadius = (int) (radius * 10);
         }
@@ -42,6 +41,13 @@ public class PackingProblem extends AbstractSimulation {
         void updatePosition() {
             x += vx * dt + 0.5 * ax_prev * dt * dt;
             y += vy * dt + 0.5 * ay_prev * dt * dt;
+
+            // Enforce boundary constraints
+            if (x - radius < 0) { x = radius; vx = 0; }
+            if (x + radius > areaWidth) { x = areaWidth - radius; vx = 0; }
+            if (y - radius < 0) { y = radius; vy = 0; }
+            if (y + radius > areaHeight) { y = areaHeight - radius; vy = 0; }
+
             circle.setXY(x, y);
         }
 
@@ -73,13 +79,15 @@ public class PackingProblem extends AbstractSimulation {
             energyLog.write("Step\tPotentialEnergy\tWidth\tHeight\tArea\n");
 
             for (int i = 0; i < N; i++) {
-                double radius = rand.nextDouble() * 1.5;
+                double radius = rand.nextDouble() * 1.5 + 0.5;
                 double x, y;
                 boolean overlaps;
                 do {
                     overlaps = false;
-                    x = rand.nextDouble() * 20 + 2.5;
-                    y = rand.nextDouble() * 20 + 2.5;
+                    radius = rand.nextDouble() * 1.5 + 0.5;
+                    x = rand.nextDouble() * (areaWidth - 2 * radius) + radius;
+                    y = rand.nextDouble() * (areaHeight - 2 * radius) + radius;
+
                     for (Particle p : particles) {
                         double dx = x - p.x;
                         double dy = y - p.y;
@@ -96,14 +104,14 @@ public class PackingProblem extends AbstractSimulation {
                 initialLog.write(String.format("radius=%.2f x=%.4f y=%.4f\n", radius, x, y));
             }
 
-            initialLog.write(String.format("Parameters: N=%d T=%d dt=%.4f drag=%.4f\n", N, T, dt, drag));
+            double area = areaWidth * areaHeight;
+            initialLog.write(String.format("Parameters: N=%d T=%d dt=%.4f drag=%.4f Area=%.2f\n", N, T, dt, drag, area));
             initialLog.close();
-
         } catch (IOException e) {
             System.out.println("Initialization log failed: " + e.getMessage());
         }
 
-        frame.setPreferredMinMax(0, 25, 0, 25);
+        frame.setPreferredMinMax(0, areaWidth, 0, areaHeight);
     }
 
     void computeGravitationalAndStickyCollisions() {
@@ -116,7 +124,6 @@ public class PackingProblem extends AbstractSimulation {
             Particle pi = particles.get(i);
             for (int j = i + 1; j < particles.size(); j++) {
                 Particle pj = particles.get(j);
-
                 double dx = pj.x - pi.x;
                 double dy = pj.y - pi.y;
                 double distSq = dx * dx + dy * dy + epsilonSq;
@@ -127,10 +134,10 @@ public class PackingProblem extends AbstractSimulation {
                 double fx = force * dx / dist;
                 double fy = force * dy / dist;
 
-                pi.ax += fx;
-                pi.ay += fy;
-                pj.ax -= fx;
-                pj.ay -= fy;
+                pi.ax += fx / pi.mass;
+                pi.ay += fy / pi.mass;
+                pj.ax -= fx / pj.mass;
+                pj.ay -= fy / pj.mass;
 
                 if (dist < minDist) {
                     double overlap = minDist - dist;
@@ -177,16 +184,9 @@ public class PackingProblem extends AbstractSimulation {
 
     void logEnergyAndBounds() {
         double energy = 0;
-        double xmin = Double.POSITIVE_INFINITY, xmax = Double.NEGATIVE_INFINITY;
-        double ymin = Double.POSITIVE_INFINITY, ymax = Double.NEGATIVE_INFINITY;
 
         for (int i = 0; i < particles.size(); i++) {
             Particle pi = particles.get(i);
-            xmin = Math.min(xmin, pi.x - pi.radius);
-            xmax = Math.max(xmax, pi.x + pi.radius);
-            ymin = Math.min(ymin, pi.y - pi.radius);
-            ymax = Math.max(ymax, pi.y + pi.radius);
-
             for (int j = i + 1; j < particles.size(); j++) {
                 Particle pj = particles.get(j);
                 double dx = pj.x - pi.x;
@@ -196,12 +196,8 @@ public class PackingProblem extends AbstractSimulation {
             }
         }
 
-        double width = xmax - xmin;
-        double height = ymax - ymin;
-        double area = width * height;
-
         try {
-            energyLog.write(String.format("%d\t%.6f\t%.4f\t%.4f\t%.4f\n", step, energy, width, height, area));
+            energyLog.write(String.format("%d\t%.6f\t%.4f\t%.4f\t%.4f\n", step, energy, areaWidth, areaHeight, areaWidth * areaHeight));
         } catch (IOException e) {
             System.out.println("Energy logging failed: " + e.getMessage());
         }
@@ -231,6 +227,6 @@ public class PackingProblem extends AbstractSimulation {
     }
 
     public static void main(String[] args) {
-        SimulationControl.createApp(new PackingProblem());
+        SimulationControl.createApp(new FloorPlanningProblem());
     }
 }

@@ -6,16 +6,15 @@ import org.opensourcephysics.display.*;
 import java.util.*;
 import java.io.*;
 
-public class PackingProblem extends AbstractSimulation {
-    PlotFrame frame = new PlotFrame("x", "y", "Gravitational Sticky Particles");
+public class PackingProblemOptimized extends AbstractSimulation {
+    PlotFrame frame = new PlotFrame("x", "y", "Optimized Packing Problem");
     ArrayList<Particle> particles = new ArrayList<>();
     double dt;
-    int N;
-    int T;
-    int step = 0;
+    int N, T, step = 0;
     double drag = 0.01;
     double G = 1.0;
     double epsilonSq = 0.01;
+    double cellSize = 5.0;
     Random rand = new Random();
 
     FileWriter initialLog, finalLog, energyLog;
@@ -29,7 +28,7 @@ public class PackingProblem extends AbstractSimulation {
             this.x = x;
             this.y = y;
             this.radius = radius;
-            this.mass = 1; //Math.PI * radius * radius; // density = 1
+            this.mass = 1.0; // Use uniform mass or area * density
             circle.setXY(x, y);
             circle.pixRadius = (int) (radius * 10);
         }
@@ -57,6 +56,22 @@ public class PackingProblem extends AbstractSimulation {
         }
     }
 
+    class Cell {
+        int row, col;
+        Cell(int row, int col) {
+            this.row = row;
+            this.col = col;
+        }
+        public boolean equals(Object o) {
+            if (!(o instanceof Cell)) return false;
+            Cell c = (Cell) o;
+            return row == c.row && col == c.col;
+        }
+        public int hashCode() {
+            return Objects.hash(row, col);
+        }
+    }
+
     public void initialize() {
         frame.clearDrawables();
         particles.clear();
@@ -73,7 +88,7 @@ public class PackingProblem extends AbstractSimulation {
             energyLog.write("Step\tPotentialEnergy\tWidth\tHeight\tArea\n");
 
             for (int i = 0; i < N; i++) {
-                double radius = rand.nextDouble() * 1.5;
+                double radius = rand.nextDouble() * 3f;
                 double x, y;
                 boolean overlaps;
                 do {
@@ -98,7 +113,6 @@ public class PackingProblem extends AbstractSimulation {
 
             initialLog.write(String.format("Parameters: N=%d T=%d dt=%.4f drag=%.4f\n", N, T, dt, drag));
             initialLog.close();
-
         } catch (IOException e) {
             System.out.println("Initialization log failed: " + e.getMessage());
         }
@@ -107,46 +121,100 @@ public class PackingProblem extends AbstractSimulation {
     }
 
     void computeGravitationalAndStickyCollisions() {
+        Map<Cell, List<Particle>> cellMap = new HashMap<>();
+
         for (Particle p : particles) {
             p.ax = 0;
             p.ay = 0;
+            int row = (int) (p.y / cellSize);
+            int col = (int) (p.x / cellSize);
+            Cell c = new Cell(row, col);
+            cellMap.computeIfAbsent(c, k -> new ArrayList<>()).add(p);
         }
 
-        for (int i = 0; i < particles.size(); i++) {
-            Particle pi = particles.get(i);
-            for (int j = i + 1; j < particles.size(); j++) {
-                Particle pj = particles.get(j);
+        for (Map.Entry<Cell, List<Particle>> entryC : cellMap.entrySet()) {
+            Cell cellC = entryC.getKey();
+            List<Particle> particlesC = entryC.getValue();
 
-                double dx = pj.x - pi.x;
-                double dy = pj.y - pi.y;
-                double distSq = dx * dx + dy * dy + epsilonSq;
-                double dist = Math.sqrt(distSq);
-                double minDist = pi.radius + pj.radius;
-
-                double force = G * pi.mass * pj.mass / distSq;
-                double fx = force * dx / dist;
-                double fy = force * dy / dist;
-
-                pi.ax += fx;
-                pi.ay += fy;
-                pj.ax -= fx;
-                pj.ay -= fy;
-
-                if (dist < minDist) {
-                    double overlap = minDist - dist;
-                    double correctionX = 0.5 * overlap * dx / dist;
-                    double correctionY = 0.5 * overlap * dy / dist;
-                    pi.x -= correctionX;
-                    pi.y -= correctionY;
-                    pj.x += correctionX;
-                    pj.y += correctionY;
-
-                    double totalVx = (pi.vx + pj.vx) / 2;
-                    double totalVy = (pi.vy + pj.vy) / 2;
-                    pi.vx = pj.vx = totalVx;
-                    pi.vy = pj.vy = totalVy;
+            for (int i = 0; i < particlesC.size(); i++) {
+                Particle pi = particlesC.get(i);
+                for (int j = i + 1; j < particlesC.size(); j++) {
+                    Particle pj = particlesC.get(j);
+                    interactParticles(pi, pj);
                 }
             }
+
+            for (Map.Entry<Cell, List<Particle>> entryB : cellMap.entrySet()) {
+                Cell cellB = entryB.getKey();
+                if (cellB.equals(cellC)) continue;
+                List<Particle> particlesB = entryB.getValue();
+                double mx = 0, my = 0, totalMass = 0;
+                for (Particle pb : particlesB) {
+                    mx += pb.x * pb.mass;
+                    my += pb.y * pb.mass;
+                    totalMass += pb.mass;
+                }
+
+                double centerX, centerY;
+                if (isAdjacent(cellC, cellB)) {
+                    centerX = mx / totalMass;
+                    centerY = my / totalMass;
+                } else {
+                    centerX = (cellB.col + 0.5) * cellSize;
+                    centerY = (cellB.row + 0.5) * cellSize;
+                }
+
+                for (Particle pi : particlesC) {
+                    applySuperParticleForce(pi, centerX, centerY, totalMass);
+                }
+            }
+        }
+    }
+
+    boolean isAdjacent(Cell c1, Cell c2) {
+        return Math.abs(c1.row - c2.row) <= 1 && Math.abs(c1.col - c2.col) <= 1;
+    }
+
+    void applySuperParticleForce(Particle p, double sx, double sy, double m) {
+        double dx = sx - p.x;
+        double dy = sy - p.y;
+        double distSq = dx * dx + dy * dy + epsilonSq;
+        double dist = Math.sqrt(distSq);
+        double force = G * p.mass * m / distSq;
+        double fx = force * dx / dist;
+        double fy = force * dy / dist;
+        p.ax += fx / p.mass;
+        p.ay += fy / p.mass;
+    }
+
+    void interactParticles(Particle pi, Particle pj) {
+        double dx = pj.x - pi.x;
+        double dy = pj.y - pi.y;
+        double distSq = dx * dx + dy * dy + epsilonSq;
+        double dist = Math.sqrt(distSq);
+        double minDist = pi.radius + pj.radius;
+        double force = G * pi.mass * pj.mass / distSq;
+        double fx = force * dx / dist;
+        double fy = force * dy / dist;
+
+        pi.ax += fx / pi.mass;
+        pi.ay += fy / pi.mass;
+        pj.ax -= fx / pj.mass;
+        pj.ay -= fy / pj.mass;
+
+        if (dist < minDist) {
+            double overlap = minDist - dist;
+            double correctionX = 0.5 * overlap * dx / dist;
+            double correctionY = 0.5 * overlap * dy / dist;
+            pi.x -= correctionX;
+            pi.y -= correctionY;
+            pj.x += correctionX;
+            pj.y += correctionY;
+
+            double totalVx = (pi.vx + pj.vx) / 2;
+            double totalVy = (pi.vy + pj.vy) / 2;
+            pi.vx = pj.vx = totalVx;
+            pi.vy = pj.vy = totalVy;
         }
     }
 
@@ -231,6 +299,6 @@ public class PackingProblem extends AbstractSimulation {
     }
 
     public static void main(String[] args) {
-        SimulationControl.createApp(new PackingProblem());
+        SimulationControl.createApp(new PackingProblemOptimized());
     }
 }
